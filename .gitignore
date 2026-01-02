@@ -1,0 +1,23 @@
+# Build artifacts
+*.o
+*.dylib
+*.dSYM
+build/
+Output/
+strip_symbol_cpp
+libtarget.dylib
+test_runner
+test_runner_bin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
